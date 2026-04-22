@@ -1,0 +1,5 @@
+onnxruntime
+insightface
+scipy
+numpy
+mediapipe
