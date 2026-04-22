@@ -201,7 +201,6 @@ With the adapter active, effective similarity scores shift upward for known pers
 | File | Role |
 |---|---|
 | `detector.py` | MediaPipe face detection and face alignment |
-| `pad_engine.py` | Passive liveness detection |
 | `recognizer.py` | Top-level API — enrolment, tuning, recognition |
 | `embedder.py` | ArcFace R50 ONNX — 512-d embedding |
 | `adapter.py` | MLP adapter — 512-d → 128-d projection |
