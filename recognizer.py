@@ -225,7 +225,7 @@ class Recognizer:
 
         pad, pad_score = self.pad_status()
 
-        if name is not None and sim >= self._threshold:
+        if name is not None and sim >= self._threshold and pad is not None:
             user = self._database.get_by_id(uid)
             result.update(
                 known      = True,
